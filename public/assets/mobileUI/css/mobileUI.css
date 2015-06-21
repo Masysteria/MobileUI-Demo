@@ -1,0 +1,365 @@
+/*--------------------------------------
+    Mobile UI
+---------------------------------------*/
+
+#ui-wrapper{
+    height: 736px;
+    width: 414px;
+    display: inline-block;
+    /*display: none;*/
+    background: #222027;
+    position: absolute;
+    color: white;
+    z-index: 1000;
+    /* disable selection/Copy of UIWebView */
+    -webkit-user-select: none!important;
+    /* disable the IOS popup when long-press on a link */
+    -webkit-touch-callout: none!important;
+    /* disable the blinking on tap */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/*----------------------------
+    Bouton
+-----------------------------*/
+
+#ui-wrapper #btn-click-1{
+    width: 142px;
+    height: 72px;
+    background: url('../img/btn-fx-1.png');
+    margin: 7px;
+    float: left;
+}
+
+#ui-wrapper #btn-click-1:active{
+    width: 142px;
+    height: 72px;
+    background: url('../img/btn-fx-1-click.png') no-repeat;
+    margin: 7px;
+    float: left;
+}
+
+#ui-wrapper #btn-click-2{
+    width: 142px;
+    height: 72px;
+    background: url('../img/btn-fx-2.png');
+    margin: 7px;
+    float: left;
+}
+
+#ui-wrapper #btn-click-2:active{
+    width: 142px;
+    height: 72px;
+    background: url('../img/btn-fx-2-click.png') no-repeat;
+    margin: 7px;
+    float: left;
+}
+
+#ui-wrapper #btn-click-3{
+    width: 142px;
+    height: 72px;
+    background: url('../img/btn-fx-3.png');
+    margin: 7px;
+    float: left;
+}
+
+#ui-wrapper #btn-click-3:active{
+    width: 142px;
+    height: 72px;
+    background: url('../img/btn-fx-3-click.png') no-repeat;
+    margin: 7px;
+    float: left;
+}
+
+#ui-wrapper #btn-click-4{
+    width: 142px;
+    height: 72px;
+    background: url('../img/btn-fx-4.png');
+    float: left;
+    margin: 7px;
+}
+
+#ui-wrapper #btn-click-4:active{
+    width: 142px;
+    height: 72px;
+    background: url('../img/btn-fx-4-click.png') no-repeat;
+    margin: 7px;
+    float: left;
+}
+
+#ui-wrapper #btn-click-5{
+    width: 142px;
+    height: 72px;
+    background: url(../img/btn-fx-5.png);
+    margin: 7px;
+    float: left;
+}
+
+#ui-wrapper #btn-click-5:active{
+    width: 142px;
+    height: 72px;
+    background: url('../img/btn-fx-5-click.png') no-repeat;
+    margin: 7px;
+    float: left;
+}
+
+#ui-wrapper #btn-click-6{
+    width: 142px;
+    height: 72px;
+    background: url('../img/btn-fx-6.png');
+    margin: 7px;
+    float: left;
+}
+
+#ui-wrapper #btn-click-6:active{
+    width: 142px;
+    height: 72px;
+    background: url('../img/btn-fx-6-click.png') no-repeat;
+    margin: 7px;
+    float: left;
+}
+
+/*----------------------------
+    Checkbox
+-----------------------------*/
+
+#ui-wrapper #checkbox-1,
+#ui-wrapper #checkbox-2,
+#ui-wrapper #checkbox-3,
+#ui-wrapper #checkbox-4,
+#ui-wrapper #checkbox-5,
+#ui-wrapper #checkbox-6{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    margin-top: 17px;
+    float: left;
+    box-shadow: inset 0px 0px 10px 3px #343434;
+}
+
+/*----------------------------
+    Slider
+-----------------------------*/
+
+#ui-wrapper input[type=range]{
+    -webkit-appearance: none;
+    background: transparent;
+}
+
+#ui-wrapper input[type=range]::-webkit-slider-runnable-track {
+    height: 30px;
+    background: #09b2ec;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: inset 0px 0px 10px 5px #343434;
+}
+
+#ui-wrapper input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 53px;
+    width: 50px;
+    margin-top: -14px;
+    background: url('../img/slider-thumb.png') no-repeat;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#ui-wrapper input[type=range]:focus {
+    outline: none;
+}
+
+#slider-1, #slider-2, #slider-3,
+#slider-4, #slider-5, #slider-6{
+    width: 200px;
+}
+
+#ui-wrapper .slider-1-value,
+#ui-wrapper .slider-2-value,
+#ui-wrapper .slider-3-value,
+#ui-wrapper .slider-4-value,
+#ui-wrapper .slider-5-value,
+#ui-wrapper .slider-6-value{
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    font-weight: bold;
+    height: 16px;
+    margin: auto;
+    margin-top: 7px;
+    margin-left: 0;
+    width: 45px;
+    text-align: center;
+}
+
+#ui-wrapper .slider-container{
+    width: 224px;
+    float: left;
+    display: -webkit-inline-box;;
+    margin-top: 32px;
+    position: relative;
+}
+
+/*----------------------------
+    Section
+-----------------------------*/
+
+#ui-wrapper .section-1,
+#ui-wrapper .section-2,
+#ui-wrapper .section-3{
+    display: inline-block;
+}
+
+#ui-wrapper .section-2{
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    width: 235px;
+    height: 405px;
+    position: absolute;
+    left: 80px;
+    top: 165px;
+}
+
+#ui-wrapper .section-3{
+    position: absolute;
+    top: 490px;
+    width: 415px;
+    height: 245px;
+    left: 0;
+}
+
+/*----------------------------
+    Volume Knob
+-----------------------------*/
+
+#ui-wrapper .knob{
+    width:150px;
+    height:150px;
+    position:relative;
+}
+
+#ui-wrapper .knob .top{
+    position:absolute;
+    top:0;
+    left:0;
+    width:150px;
+    height:150px;
+    background:url('../img/knob-1.png') no-repeat;
+    border-radius: 100%;
+    z-index:10;
+    cursor:default !important;
+}
+
+#ui-wrapper .knob .base{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    box-shadow:0 5px 0 #4a5056,5px 5px 5px #000;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+#ui-wrapper .knob .top:after{
+    content: '';
+    width: 30px;
+    height: 10px;
+    background-color: #666;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    margin-top: -5px;
+    border-radius: 5px;
+    cursor: default !important;
+    box-shadow: 0 0 1px #5a5a5a inset;
+}
+
+#ui-wrapper .knob [draggable] {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#ui-wrapper #container-knob{
+    display: inline-block;
+    margin-left: 20px;
+    float: left;
+}
+
+#ui-wrapper #control-knob{
+    width:150px;
+    height:150px;
+}
+
+#ui-wrapper .slider-7-value-p{
+    text-align: center;
+    font-weight: bold;
+}
+
+/*----------------------------
+    Player Controls
+-----------------------------*/
+
+#ui-wrapper #container-player-control{
+    display: inline-block;
+    height: 210px;
+    width: 210px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+#ui-wrapper #player-play{
+    height: 70px;
+    width: 70px;
+    background: url('../img/player-play1.png');
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+
+#ui-wrapper #player-pause{
+    height: 70px;
+    width: 70px;
+    background: url('../img/player-pause1.png');
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+#ui-wrapper #player-stop{
+    background-size: 90%;
+    height: 70px;
+    width: 70px;
+    background: url('../img/player-stop1.png');
+    position: absolute;
+    top: 140px;
+    left: 70px;
+}
+
+#ui-wrapper #player-previous{
+    background-size: 90%;
+    height: 70px;
+    width: 70px;
+    background: url('../img/player-previous1.png');
+    position: absolute;
+    top: 70px;
+    left: 0px;  
+}
+
+#ui-wrapper #player-next{
+    background-size: 90%;
+    height: 70px;
+    width: 70px;
+    background: url('../img/player-next1.png');
+    position: absolute;
+    top: 70px;
+    left: 140px; 
+}
+
+#ui-wrapper #player-play:active, #ui-wrapper #player-pause:active,
+#ui-wrapper #player-stop:active, #ui-wrapper #player-previous:active,
+#ui-wrapper #player-next:active{
+    opacity: 0.6;
+}

@@ -1,0 +1,10 @@
+{
+    "name": "mobileUI",
+    "version": "0.1.0",
+    "dependencies": {
+        "express": "~3.3.4",
+        "socket.io": "~1.2.1"
+    },
+    "author": "kevin taylor <kevintaylor.pro@gmail.com>",
+    "description": "ui socket.io"
+}
