@@ -30,7 +30,9 @@
     socket.on('btnClick5', function (message){});
 
     // Button 6 on click
-    socket.on('btnClick6', function (message){});
+    socket.on('btnClick6', function (message){
+        window.location.reload()
+    });
 
     // Checkbox 1
     socket.on('checkbox1checked', function (message){
