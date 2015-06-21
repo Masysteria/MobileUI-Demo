@@ -104,10 +104,10 @@
     // --------------------------------------
 
     // localhost
-    var socket = io.connect('http://localhost:8888');
+    // var socket = io.connect('http://localhost:8888');
 
     // online
-    // var socket = io.connect('http://167.114.246.215:8000');
+    var socket = io.connect('http://167.114.246.215:8000');
 
     // Button 1 on click
     $('#btn-click-1').click(function (){

@@ -10,10 +10,10 @@ app.use(express.static(__dirname + '/public'));
 var io = require('socket.io').listen(server); 
 
 // localhost
-server.listen(8888); 
+// server.listen(8888); 
 
 // online
-// server.listen(8000, '167.114.246.215'); 
+server.listen(8000, '167.114.246.215'); 
 
 //Quand un client se connect au server
 io.sockets.on('connection', function(socket){
