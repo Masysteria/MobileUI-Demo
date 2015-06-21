@@ -5,8 +5,8 @@
 #ui-wrapper{
     height: 736px;
     width: 414px;
-    display: inline-block;
-    /*display: none;*/
+    /*display: inline-block;*/
+    display: none;
     background: #222027;
     position: absolute;
     color: white;
