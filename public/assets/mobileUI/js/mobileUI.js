@@ -95,9 +95,9 @@
     //          Device detection
     // --------------------------------------
 
-    // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-    //     $("#ui-wrapper").css('display', 'inline-block');
-    // };
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+        $("#ui-wrapper").css('display', 'inline-block');
+    };
 
     // --------------------------------------
     //              Socket.io
